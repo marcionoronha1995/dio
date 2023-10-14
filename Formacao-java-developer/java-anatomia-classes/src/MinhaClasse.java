@@ -8,9 +8,16 @@ public class MinhaClasse {
         int anoNascimento = 1969;
         boolean simNao = true;
         double altura = 1.62;
-        Dog spike;
-        int somar (int numeroUm, int numeroDois);
-        String formatar (long cep);
+ 
+        String primeiroNome = "Zeferino";
+        String segundoNome = "Noronha";
+        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+        
+        System.out.println(meuNome);
+        System.out.println(anoNascimento);
+        System.out.println(simNao);
+        System.out.println(altura);
+        System.out.println(nomeCompleto);
 
 
         anoNascimento = 2023;
@@ -18,4 +25,9 @@ public class MinhaClasse {
 
 
     } 
+
+    public static String nomeCompleto (String primeiroNome, String segundoNome) {
+        System.out.println("--..00..00");
+        return "Resultado do metodo " + primeiroNome.concat(" " + segundoNome);
+    }
 }
