@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Orçamento</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Orçamento</h1>
+        <div>
+            <label for="item">Item:</label>
+            <input type="text" id="item" placeholder="Digite o item">
+        </div>
+        <div>
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" placeholder="Digite a quantidade">
+        </div>
+        <div>
+            <label for="preco">Preço Unitário:</label>
+            <input type="number" id="preco" placeholder="Digite o preço unitário">
+        </div>
+        <button onclick="adicionarItem()">Adicionar Item</button>
+        <h2>Itens do Orçamento</h2>
+        <ul id="lista-itens"></ul>
+        <h3>Total do Orçamento: <span id="total">0.00</span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
