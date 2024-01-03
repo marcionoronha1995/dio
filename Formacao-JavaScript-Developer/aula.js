@@ -23,3 +23,6 @@ if ((numeroZero % 2) === 0) {
 } else {
     console.log(numeroZero + "é impar");
 };
+// COLOCAR A CONDIÇÃO EM UM VARIAVEL COM NOME DE NEGOCIO
+const numeroInformado = 2;
+const isNumeroEPar = ((numeroInformado % 2)===0);
