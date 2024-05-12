@@ -3,7 +3,7 @@ _Neste documento estou resumidamente registrando o que estou aprendendo sobre Gi
 
 ### REGISTRANDO O ACESSO NO GIT
 
-### COMANDOS GIT
+### COMANDOS GIT..
 ##
 ```bash
  git commit -m "nome commit"
